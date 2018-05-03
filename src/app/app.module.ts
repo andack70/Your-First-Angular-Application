@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { AndackComponentComponent } from './andack-component/andack-component.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AndackComponentComponent
   ],
   imports: [
     BrowserModule

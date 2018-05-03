@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Andack First Application';
+  author = 'Andres Fdo Chalarca Lopez';
+  count = 0;
+  imgSource = './../favicon.ico';
+  enable = true;
 }
